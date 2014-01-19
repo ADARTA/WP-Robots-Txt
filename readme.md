@@ -1,4 +1,4 @@
-WP Robots Txt
+**Wordpress robots.txt Version 2**
 =============
 
 This is a *single serving* plugin that adds a field on the Settings->Reading WordPress admin page which allows you to edit your `robots.txt` file contents.
