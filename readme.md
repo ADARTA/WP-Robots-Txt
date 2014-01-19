@@ -24,22 +24,15 @@ Delete all the content from the *Robots.txt Content* field and click the Save Ch
 Yes.  Be careful! That said, `robots.txt` files are suggestions. They don't really *block* bots as much as they *suggest* that bots don't crawl portions of a site.  That's why the options on the Privacy Settings page say "Ask search engines not to index this site."
 
 **Where can I learn more about `robots.txt` files?**
-
-[Here](https://developers.google.com/webmasters/control-crawl-index/docs/robots_txt).
+      Here is a list
+- [Google Info](https://developers.google.com/webmasters/control-crawl-index/docs/robots_txt)
+- [Wordpress.org Post](http://wordpress.org/ideas/topic/wordpress-needs-a-default-robotstxt-file-and-more)
+- [More Google Info](https://developers.google.com/webmasters/control-crawl-index/docs/robots_meta_tag?csw=1)
+- [Good Article to Read](http://perishablepress.com/wordpress-robots-rules/)
 
 Changelog
 ---------
-
-**1.0**
-
-- Initial version
-
-**1.1**
-
-- Cleaned up code
-- Moved to the settings field to the reading area
-
-**1.2**
+*2.0.0*
 - Don't overwrite the discourage search engines flag anymore
 - When clearing the content from the *Robots.txt Content* field, you will be prompted to save the reloaded defaults.
 - Shows an iFrame of your most current Robots.txt file below the edited content.
