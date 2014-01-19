@@ -1,8 +1,8 @@
 <?php
 /**
- * WP Robots Txt
+ * WP Robots Txt Version2
  *
- * Copyright 2013 Christopher Davis <http://christopherdavis.me>
+ * Copyright 2014 by the contributors
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License, version 2, as 
@@ -18,8 +18,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  *
  * @category    WordPress
- * @package     WPRobotsTxt
- * @copyright   2013 Christopher Davis
+ * @package     WPRobotsTxtV2
+ * @copyright   WP-Robots-Txt-Version2 - Copyright 2014 by the contributors
  * @license     http://opensource.org/licenses/GPL-2.0 GPL-2.0+
  */
 
