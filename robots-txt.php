@@ -4,7 +4,7 @@
  * Plugin URI: https://github.com/ADARTA/WP-Robots-Txt-Version2
  * Description: Edit your robots.txt file from Settings->Reading WordPress Admin page
  * Version: 2.0.0
- * Text Domain: wp-robots-txt-version2
+ * Text Domain: wp-robots-txt-v2
  * Author: ADARTA Software
  * Author URI: https://github.com/ADARTA
  * License: GPL-2.0+
