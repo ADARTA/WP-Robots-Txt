@@ -1,7 +1,9 @@
-**Wordpress robots.txt Version 2**
+**WordPress robots.txt Version 2**
 =============
 
-This is a *single serving* plugin that adds a field on the Settings->Reading WordPress admin page which allows you to edit your `robots.txt` file contents.
+This is a *single serving* plugin that adds a field on the Settings->Reading WordPress admin page which allows you to edit the **virtual** `robots.txt` file contents.
+
+WordPress has a **virtual** robots.txt file when there is not a robots.txt physically in your servers root directory.  This plugin allows the editing and override of the settings for the robots.txt when it does not physically exist.  This will allow for a quick edit of the settings without having to physically upload your settings.
 
 ![WP Robots Txt](../../raw/master/screenshot-1.png)
 
@@ -26,7 +28,7 @@ Yes.  Be careful! That said, `robots.txt` files are suggestions. They don't real
 **Where can I learn more about `robots.txt` files?**
       Here is a list
 - [Google Info](https://developers.google.com/webmasters/control-crawl-index/docs/robots_txt)
-- [Wordpress.org Post](http://wordpress.org/ideas/topic/wordpress-needs-a-default-robotstxt-file-and-more)
+- [WordPress.org Post](http://wordpress.org/ideas/topic/wordpress-needs-a-default-robotstxt-file-and-more)
 - [More Google Info](https://developers.google.com/webmasters/control-crawl-index/docs/robots_meta_tag?csw=1)
 - [Good Article to Read](http://perishablepress.com/wordpress-robots-rules/)
 
@@ -36,4 +38,4 @@ Changelog
 - Don't overwrite the discourage search engines flag anymore
 - When clearing the content from the *Robots.txt Content* field, you will be prompted to save the reloaded defaults.
 - Shows an iFrame of your most current Robots.txt file below the edited content.
-- Allows for a moved wp-content folder and a moved media uploads folder now.
+- Allows for a custom installed `wp-admin`,`wp-includes` folders.
