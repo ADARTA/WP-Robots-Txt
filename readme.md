@@ -32,6 +32,11 @@ Yes.  Be careful! That said, `robots.txt` files are suggestions. They don't real
 - [More Google Info](https://developers.google.com/webmasters/control-crawl-index/docs/robots_meta_tag?csw=1)
 - [Good Article to Read](http://perishablepress.com/wordpress-robots-rules/)
 
+After trying to understand the Robots.txt, go read this article that will help you understand some of the pitfalls.
+[Joost De Valk explains why WordPress should not blog some directories by default](https://yoast.com/example-robots-txt-wordpress/) 
+
+This plugin does not try to fix your settings.  It allows you to quickly change your settings, so you can easily change settings as bots change the way they crawl.
+
 Changelog
 ---------
 *2.0.0*
