@@ -133,6 +133,7 @@ class CD_RDTE_Admin_Page
             }
            echo '</label>';             
         }
+        echo '<div><a href="/robots.txt" target="_robotstxt" class="button button-primary">Click here for robots.txt</a></div>';
         echo '<div><iframe src="/robots.txt" height="120px" width="100%"></iframe></div>';
         echo '</p>';
     }
